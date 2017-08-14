@@ -1,0 +1,1 @@
+PokemonGO_GAME_MASTER
