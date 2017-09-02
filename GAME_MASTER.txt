@@ -26995,6 +26995,7 @@ item_templates {
       shoulder_mode_scale: 0.5
     }
     encounter {
+      base_capture_rate: 0.02
       base_flee_rate: 0.04
       collision_radius_m: 0.55
       collision_height_m: 0.91
@@ -27072,6 +27073,7 @@ item_templates {
       shoulder_mode_scale: 0.5
     }
     encounter {
+      base_capture_rate: 0.02
       base_flee_rate: 0.04
       collision_radius_m: 0.55
       collision_height_m: 0.91
@@ -27150,6 +27152,7 @@ item_templates {
       shoulder_mode_scale: 0.5
     }
     encounter {
+      base_capture_rate: 0.02
       base_flee_rate: 0.04
       collision_radius_m: 0.65
       collision_height_m: 1.35
@@ -27172,7 +27175,7 @@ item_templates {
       base_defense: 235
     }
     quick_moves: EXTRASENSORY_FAST
-    quick_moves: SNARL_FAST
+    quick_moves: HIDDEN_POWER_FAST
     cinematic_moves: HYDRO_PUMP
     cinematic_moves: BUBBLE_BEAM
     cinematic_moves: WATER_PULSE
@@ -41057,4 +41060,4 @@ item_templates {
     sequence: "sys complete"
   }
 }
-timestamp_ms: 1502635854425
+timestamp_ms: 1504314116923
