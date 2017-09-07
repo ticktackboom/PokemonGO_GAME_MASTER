@@ -3601,6 +3601,14 @@ item_templates {
   }
 }
 item_templates {
+  template_id: "BADGE_SAFARI_ZONE_EUROPE_2017"
+  badge_settings {
+    badge_type: 2003
+    badge_rank: 2
+    targets: 100
+  }
+}
+item_templates {
   template_id: "BADGE_SMALL_RATTATA"
   badge_settings {
     badge_type: BADGE_SMALL_RATTATA
@@ -41070,4 +41078,4 @@ item_templates {
     sequence: "sys complete"
   }
 }
-timestamp_ms: 1504657880325
+timestamp_ms: 1504708146691
