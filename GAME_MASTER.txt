@@ -3636,6 +3636,22 @@ item_templates {
   }
 }
 item_templates {
+  template_id: "BADGE_SAFARI_ZONE_EUROPE_2017_10_07"
+  badge_settings {
+    badge_type: 2004
+    badge_rank: 2
+    targets: 100
+  }
+}
+item_templates {
+  template_id: "BADGE_SAFARI_ZONE_EUROPE_2017_10_14"
+  badge_settings {
+    badge_type: 2005
+    badge_rank: 2
+    targets: 100
+  }
+}
+item_templates {
   template_id: "BADGE_SMALL_RATTATA"
   badge_settings {
     badge_type: BADGE_SMALL_RATTATA
@@ -5647,6 +5663,20 @@ item_templates {
     egg_incubator {
       incubator_type: INCUBATOR_DISTANCE
       distance_multiplier: 1
+    }
+  }
+}
+item_templates {
+  template_id: "ITEM_INCUBATOR_SUPER"
+  item_settings {
+    item_id: 903
+    item_type: ITEM_TYPE_INCUBATOR
+    category: ITEM_CATEGORY_INCUBATOR
+    drop_trainer_level: 100
+    egg_incubator {
+      incubator_type: INCUBATOR_DISTANCE
+      uses: 3
+      distance_multiplier: 0.66666669
     }
   }
 }
@@ -41105,4 +41135,4 @@ item_templates {
     sequence: "sys complete"
   }
 }
-timestamp_ms: 1505757418661
+timestamp_ms: 1506727947506
