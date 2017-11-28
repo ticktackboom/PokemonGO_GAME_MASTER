@@ -29994,6 +29994,7 @@ item_templates {
       shoulder_mode_scale: 0.5
     }
     encounter {
+      base_capture_rate: 0.02
       base_flee_rate: 0.04
       collision_radius_m: 1.2
       collision_height_m: 3.7
@@ -51380,4 +51381,4 @@ item_templates {
     sequence: "sys complete"
   }
 }
-timestamp_ms: 1510611341488
+timestamp_ms: 1511827819746
